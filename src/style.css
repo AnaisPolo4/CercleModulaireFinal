@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #aaaaaa;
+  height: 100vh;
+  display: flex;
+}
+
+@font-face {
+  font-family: antarctica;
+  src: url('./typo/Antarctica-SemiBold.otf') format('truetype');
+}
+
+
+canvas {
+  display: block;
+}
+
+
+.texte{
+  z-index: 1;
+  position: absolute;
+  font-family: antarctica;
+  width: 42%;
+}
+
+h1{
+  margin-top: 30px;
+  margin-left: 15px;
+  margin-bottom: 7px;
+  z-index: 1;
+  font-size: 110px;
+  line-height: 80px;
+
+}
+
+.info{
+  font-size: 14px;
+  line-height: 16px;
+  position: relative;
+  display: flex;
+  gap: 70px;
+  margin-left: 45%;
+}
+
+span{
+  color: #ffffff;
+} 
