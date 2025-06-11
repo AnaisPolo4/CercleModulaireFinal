@@ -21,7 +21,7 @@ canvas {
   z-index: 1;
   position: absolute;
   font-family: antarctica;
-  width: 42%;
+  width: 25%;
 }
 
 h1{
@@ -29,20 +29,38 @@ h1{
   margin-left: 15px;
   margin-bottom: 7px;
   z-index: 1;
-  font-size: 110px;
-  line-height: 80px;
+  font-size: 80px;
+  line-height: 60px;
 
 }
 
 .info{
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 13px;
+  line-height: 14px;
   position: relative;
   display: flex;
-  gap: 70px;
-  margin-left: 45%;
+  gap: 50px;
+  margin-left: 55%;
 }
 
 span{
   color: #ffffff;
 } 
+
+@media screen and (max-width: 700px) {
+
+  body {
+    padding: 0px;
+  }
+  h1{
+    margin-top: 10px;
+    font-size: 60px;
+    line-height: 50px;
+    margin-bottom: 5px;
+
+  }
+  .info{
+font-size: 12px;
+line-height: 14px;
+  }
+}
